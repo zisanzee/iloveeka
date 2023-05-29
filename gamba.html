@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/gamba.css">
+  <title>gamba</title>
+</head>
+<body> 
+  <div class="info-bar">
+    <div class="info">
+      <p class="balance">Balance: $0</p>
+      <button onclick="
+      localStorage.clear();
+      balance.innerHTML = `Balance: $${balanceMoney}`;
+
+      " class="reset">reset</button>
+    </div>
+</div>
+  <div class="game">
+<!img src="https://media.tenor.com/r7RUcbFYnBUAAAAC/flip-coin.gif" alt="">
+<div class="container container-static">
+  <p class="result-text">welcome to coinflip</p>
+  <p class="subtext">enjoy!</p>
+</div>
+
+
+
+
+  </div>
+  <div class="input">
+<button class="head-button" onclick="
+  setGuess('head')
+  ">Head</button>
+<input type="number" class="num-input">
+<button class="tail-button" onclick="
+setGuess('tail')
+"> Tail</button> 
+
+  </div>
+  <div class="play" onclick="
+  playGame()
+  ">
+    <button class="play-button">Play</button>
+  </div>
+  <script src="gamba.js"></script>
+</body>
+</html>

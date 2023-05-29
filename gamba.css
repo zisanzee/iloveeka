@@ -1,0 +1,114 @@
+body{
+  background-color: rgba(47, 38, 87);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+.container {
+  background-color: white;
+  box-shadow: 0 0 20px rgb(202, 191, 191);
+  margin: 0 auto; 
+  margin-top: 50px;
+  text-align: center;
+  max-width: 350px;
+  min-height: 350px;
+  color: black;
+  border-radius: 6px;
+  padding: 20px;
+  background-size: cover;
+  
+  background-color: rgba(47, 38, 87.5);
+}
+.result-text{
+  font-family: monospace;
+  font-size: 28px;
+  transition: ease-in-out;
+  margin: none;
+}
+.subtext{
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.container-static{
+  background-image: url(/gamba-icon.png);
+  transition: ease-in-out;
+}
+
+.container-flip{
+  background-image: url("https://media.tenor.com/r7RUcbFYnBUAAAAC/flip-coin.gif");
+  transition: ease-in-out;
+}
+
+.container-flip-head{
+  background-image: url(/gamba-icon2.png);
+  transition: ease-in-out;
+}
+
+.container-flip-tail{
+  background-image: url(/gamba-icon3.png);
+  transition: ease-in-out;
+}
+
+
+.balance {
+ 
+  border: solid 1px yellow;
+  width: 200px;
+  
+  text-align: center;
+  
+  padding: 20px 50px;
+  font-family: monospace;
+  font-size: 28px;
+  margin-left: 115px;
+  
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background-color: rgb(32, 26, 61);
+  justify-content: center;
+}
+
+.input{
+  display: grid;
+  grid-template-columns: 106px 170px 106px;
+  grid-template-rows: 50px;
+  column-gap: 3px;
+  
+  align-items: center;
+  justify-content: center;
+  align-items: stretch;
+  border-radius: 3px;
+ 
+}
+ .num-input{
+  font-size: 20px;
+  
+  
+}
+.head-button, .tail-button{
+  background-color: rgb(10, 179, 10);
+  color: white;
+  border: solid 2px rgb(9, 184, 9);
+  border-radius: 3px;
+}
+
+.play{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.reset {
+  background-color: rgb(179, 10, 10);
+  color: white;
+  border: solid 1px rgb(255, 220, 19);
+  border-radius: 3px;
+  width: 100px;
+  padding: 20px;
+}
+
